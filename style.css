@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header part */
+
+.header{
+    background-image: url("/images/banner/banner3.png");
+    width: 1600;
+    height: 808px;
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.banner{
+ text-align: right;
+}
+
+.banner-title{
+    padding-top: 200px;
+    padding-right: 190px;
+    display:flex ;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;  
+}
+.banner-text{
+    text-align: right;
+    line-height: 26px;
+    color: #FFFFFF;
+    display:flex ;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-right: 190px;
+    font-weight: 450px;
+    font-size: 18px;
+}
+
+.primary-btn{
+    color: rgb(33, 77, 160);
+    margin-right: 190px;
+    margin-top: 32px;
+    width: 160px;
+    height: 64px;
+    font-size: 21px;
+    
+    
+}
+
+/* main part */
+
+/* failure section */
+
+.failure-section{
+    width: 1072px;
+    height: 720px;
+    
+    margin:130px 320px 130px 205px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+     
+    
+
+}
+
+.failure-img{
+    width: 570px;
+    margin: 10px;
+}
+.failure-text{
+    width:415px;
+    padding: 15px;
+    margin: 150px 10px 0px;
+     
+}
+.failure-text >h3{
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.failure-text >p{
+    width: 380px;
+    padding: 20px 0px;
+    line-height: 26px;
+    color: #444343;
+}
+.failuer-li li{
+    list-style-image: url("/images//icons/download.png");
+    list-style-position: inside;
+    padding: 5px 0;
+    color: #444343;
+      
+}
